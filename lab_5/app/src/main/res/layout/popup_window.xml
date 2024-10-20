@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF">
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22sp"
+        android:layout_margin="30dp"
+        android:text="Магадан cycleteam приглашает всех желающих на тренировки.\n+7 905 505-78-84, Галина\nhttps://t.me/magadanteam"
+        android:clickable="true"
+        android:linksClickable="true"
+        android:autoLink="all"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
