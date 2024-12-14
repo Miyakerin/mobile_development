@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab_11</string>
+    <string name="flashlight">Flashlight</string>
+    <string name="email">Send me email</string>
+    <string name="browser">Open browser</string>
+    <string name="call">Call me</string>
+</resources>

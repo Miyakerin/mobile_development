@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:gravity="center">
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="callMeButtonClick"
+        android:text="@string/call"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="openBrowserButtonClick"
+        android:text="@string/browser"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="sendMeEmailButtonClick"
+        android:text="@string/email"/>
+    <ToggleButton
+        android:id="@+id/flashlightButtonId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="Turn Off"
+        android:textOff="Turn On"
+        android:checked="false"
+        android:text="Turn On/Off Camera LED/ Flashlight Android"/>
+
+</LinearLayout>
