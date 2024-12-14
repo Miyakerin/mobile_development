@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.lab_8_2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_new_group"
+        android:name="com.example.lab_8_2.ui.new_group.NewGroupFragment"
+        android:label="@string/new_group"
+        tools:layout="@layout/fragment_new_group" />
+
+    <fragment
+        android:id="@+id/nav_new_secret_chat"
+        android:name="com.example.lab_8_2.ui.new_secret_chat.NewSecretChatFragment"
+        android:label="@string/new_secret_chat"
+        tools:layout="@layout/fragment_new_secret_chat" />
+
+    <fragment
+        android:id="@+id/nav_new_channel"
+        android:name="com.example.lab_8_2.ui.new_channel.NewChannelFragment"
+        android:label="@string/new_channel"
+        tools:layout="@layout/fragment_new_channel" />
+
+    <fragment
+        android:id="@+id/nav_contacts"
+        android:name="com.example.lab_8_2.ui.contacts.ContactsFragment"
+        android:label="@string/contacts"
+        tools:layout="@layout/fragment_contacts" />
+
+    <fragment
+        android:id="@+id/nav_favorites"
+        android:name="com.example.lab_8_2.ui.favorites.FavoritesFragment"
+        android:label="@string/favorites"
+        tools:layout="@layout/fragment_favorites" />
+
+    <fragment
+        android:id="@+id/nav_calls"
+        android:name="com.example.lab_8_2.ui.calls.CallsFragment"
+        android:label="@string/calls"
+        tools:layout="@layout/fragment_calls" />
+
+    <fragment
+        android:id="@+id/nav_invite_friends"
+        android:name="com.example.lab_8_2.ui.invite_friends.InviteFriendsFragment"
+        android:label="@string/inv_friends"
+        tools:layout="@layout/fragment_invite_friends" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.lab_8_2.ui.settings.SettingsFragment"
+        android:label="@string/settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>
