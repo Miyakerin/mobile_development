@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">lab 13</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="password">password</string>
+    <string name="email">email</string>
+</resources>
